@@ -1,0 +1,9 @@
+1 - logging in is failing
+ core/settings.py 
+
+    # HTTPS Enforcement
+    SECURE_SSL_REDIRECT = True
+
+    (changed false to true. True applies for live instances, after forced https is implemented)
+
+    
